@@ -1,0 +1,26 @@
+@media (min-width: 768px) and (max-width: 980px) {
+    .header__nav-list--active--open {
+        position: absolute;
+        right: 0;
+        top: 60px;
+        transition: 0.5s ease-in-out;
+        box-shadow: -4px 2px 6px gray;
+        z-index: 12;
+    }
+} 
+@media (min-width: 500px) and (max-width: 768px) {
+    .header__nav-list--active--open {
+        right: 0;
+        top: 60px;
+        transition: 0.5s ease-in-out;
+        box-shadow: -4px 2px 6px gray;
+    }
+}
+@media (max-width: 500px) {
+    .header__nav-list--active--open {
+        right: 0;
+        top: 60px;
+        transition: 0.5s ease-in-out;
+        box-shadow: -4px 2px 6px gray;
+    }
+}

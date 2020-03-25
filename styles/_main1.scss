@@ -1,0 +1,46 @@
+%flex {
+    padding-top: 80px;
+    padding-bottom: 19px;
+    display: flex;
+    align-items: flex-end;
+    font-weight: bold;
+    font-size: 24px;
+}
+%margin {
+    margin-top: 24px;
+    font-size: 24px;
+}
+%description {
+    margin: 0;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    color: #FFFFFF;
+    transition: all 0.3s linear;
+    background: rgba(227, 27, 75, 0.6);
+}
+%pos-overflow {
+    position: relative;
+    overflow: hidden;
+}
+%hover {
+    display: block;
+    top: 0;
+}
+%circle {
+    position: relative;
+    width: 133px;
+    height: 133px;
+    border-radius: 50%;
+    background: #E75A7C;
+    opacity: 0.2;
+}
+
+@import 'article-11';
+@import 'article-22';
+@import 'article-33';
+
